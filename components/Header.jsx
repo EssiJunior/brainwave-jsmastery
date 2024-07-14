@@ -79,7 +79,7 @@ const Header = () => {
                 >
                     New account
                 </a>
-                <Button className="hidden lg:flex" href="#login">
+                <Button className="lg:flex " href="#login" white={false}>
                     Sign in
                 </Button>
 
