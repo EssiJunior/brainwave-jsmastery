@@ -4,9 +4,9 @@ import { useParams } from 'next/navigation'
 import { disablePageScroll, enablePageScroll } from "scroll-lock";
 
 import { navigation } from "../constants";
-import Button from "./Button";
-import MenuSvg from "../public/assets/svg/MenuSvg";
-import { HamburgerMenu } from "./design/Header";
+import Button from "../components/Button";
+import MenuSvg from "@/public/assets/svg/MenuSvg";
+import { HamburgerMenu } from "../components/design/Header";
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import { useHash } from '@/hooks/useHash';
