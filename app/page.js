@@ -1,11 +1,12 @@
 import Button from "@/components/Button";
-import Header from "@/containers/Header";
+import Section from "@/components/Section";
+import Hero from "@/containers/Hero";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <Header />
+    <main className="pt-[4.75rem] lg:pt-[5.75rem] overflow-hidden">
+      <Hero />
       <Button >Button</Button>
     </main>
   );
