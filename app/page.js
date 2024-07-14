@@ -1,9 +1,7 @@
-import Button from "@/components/Button";
-import Section from "@/components/Section";
 import Benefits from "@/containers/Benefits";
 import Collaboration from "@/containers/Collaboration";
 import Hero from "@/containers/Hero";
-import Image from "next/image";
+import Services from "@/containers/Services";
 
 export default function Home() {
   return (
@@ -11,6 +9,7 @@ export default function Home() {
       <Hero />
       <Benefits />
       <Collaboration />
+      <Services />
     </main>
   );
 }
