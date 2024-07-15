@@ -2,6 +2,7 @@ import Benefits from "@/containers/Benefits";
 import Collaboration from "@/containers/Collaboration";
 import Hero from "@/containers/Hero";
 import Pricing from "@/containers/Pricing";
+import Roadmap from "@/containers/Roadmap";
 import Services from "@/containers/Services";
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       <Collaboration />
       <Services />
       <Pricing />
+      <Roadmap />
     </main>
   );
 }
