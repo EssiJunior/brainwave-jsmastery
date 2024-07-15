@@ -5,7 +5,7 @@ import { roadmap } from "@/constants";
 import { check2, grid, loading1 } from "@/public/assets";
 import { Gradient } from "@/components/design/Roadmap";
 import Image from "next/image";
-import TagLine from "@/components/TagLine";
+import TagLineBrainWave from "@/components/TagLineBrainWave";
 
 const Roadmap = () => (
     <Section className="overflow-hidden" id="roadmap">
@@ -34,7 +34,7 @@ const Roadmap = () => (
                                 </div>
                                 <div className="relative z-1">
                                     <div className="flex items-center justify-between max-w-[27rem] mb-8 md:mb-20">
-                                        <TagLine>{item.date}</TagLine>
+                                        <TagLineBrainWave>{item.date}</TagLineBrainWave>
 
                                         <div className="flex items-center px-4 py-1 bg-n-1 rounded text-n-8">
                                             <Image
