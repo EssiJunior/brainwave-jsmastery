@@ -14,7 +14,7 @@ import { useHash } from '@/hooks/useHash';
 const Header = () => {
     const params = useParams();
     const [openNavigation, setOpenNavigation] = useState(false);
-    const [theme, setTheme] = useState(false);
+    const [theme, setTheme] = useState('dark');
 
     const toggleNavigation = () => {
         if (openNavigation) {
@@ -39,6 +39,7 @@ const Header = () => {
     const toggleTheme = (theme) => {
         localStorage.theme = theme
     }
+
     useEffect(() => {
         toggleTheme(theme)
         
@@ -109,7 +110,7 @@ const Header = () => {
                 </Button>
             </div>
             {
-                localStorage.theme === 'light' ?
+                theme === 'light' ?
 
                     <div className='absolute w-10 aspect-square bg-n-2 right-2 flex items-center justify-center'>
 
