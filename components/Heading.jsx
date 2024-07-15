@@ -1,5 +1,6 @@
 import TagLine from "@/components/TagLine"
 
+
 const Heading = ({ className, title, text, tag }) => {
     return (
         <div
